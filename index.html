@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <main>
+
+        <h1 class="tit">Calculadores de juros</h1>
+
+        <div class="Valores">
+            <div>
+               <h3>Saldo:</h3>
+               <input type="text" id="saldo">
+            </div>
+            
+            <div>
+               <h3>Juros:</h3>
+               <input type="text" id="juros">
+            </div>
+            
+            <div>
+                <h3>Parcelas:</h3>
+                <input type="number" min="1" max="36"  id="parcelas">
+                <input type="button" id="enviar" value="pesquisar">
+            </div>
+            
+        </div>
+
+        <hr>
+
+        <div id="valoresDigitados">
+
+            <p id="valor1"></p>
+            <p id="valor2"></p>
+            <p id="valor3"></p>
+            <p id="valor4"></p>
+
+
+
+        </div>
+
+
+
+    </main>
+
+<script src="index.js"></script>    
+
+
+</body>
+</html>

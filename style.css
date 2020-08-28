@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+
+.tit{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15pc;
+}
+
+.Valores{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
